@@ -8,11 +8,11 @@
     <!-- CSS cdn link -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
+<body class="bg-secondary">
   <!-- Navigation bar -->
-  <div class="bg-light border">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
+    <div class="bg-light border">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">BT SHOP</a>
                 <button  class="navbar-toggler"
                     data-bs-target="#navhide"
@@ -20,8 +20,18 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
+               
+
                 <div id="navhide" class="navbar-collapse collapse">
-                    <ul class="navbar-nav ms-auto me-3">            
+                    
+                    <div class="d-flex gap-2 ms-auto">
+                        <input class="form-control" type="search" placeholder="Search">
+                        <button class="btn btn-light">Search</button>
+                    </div>
+                    
+                    
+                    
+                    <ul class="navbar-nav">            
                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact-Us</a></li>
@@ -39,52 +49,14 @@
                             </ul>
                         </li>                        
                     </ul>
-                    <div class="d-flex gap-2">
-                      <input class="form-control" type="search" placeholder="Search">
-                      <button class="btn btn-light">Search</button>
-                  </div>
+                    
                 </div>                                
-      </nav>
+            </nav>
+        </div>
     </div>
-  </div>
 
-  <!-- Carousel -->
-  <header>
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="2000">
-          <img src="images/slider-01.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/slider-02.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/slider-03.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/slider-04.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </header>
-
-  <!-- Product -->
-  <main>
-
-  </main>
-
-          
-  <header class="">
-    <span class=""></span>
-  </header>
+    <!-- Carousel -->
+        
 
 
 
